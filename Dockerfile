@@ -1,6 +1,5 @@
 FROM debian:jessie
 
-LABEL Name="nikto from git" Author="Carlos Alberto Castelo Elias Filho <cacefmail@gmail.com>"
 RUN buildDeps=' \
         git \
 	' \
